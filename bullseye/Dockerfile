@@ -1,7 +1,7 @@
 ###########################################################
 # Dockerfile that builds a CSGO Gameserver
 ###########################################################
-FROM cm2network/steamcmd:root as build_stage
+FROM questler/steamcmd_arm64:root as build_stage
 
 LABEL maintainer="walentinlamonos@gmail.com"
 
